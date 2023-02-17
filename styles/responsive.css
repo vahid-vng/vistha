@@ -1,0 +1,132 @@
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .menu__list {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .menu {
+    background-color: #efefef;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    left: 0;
+    transition: all 120ms ease-in;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .nav__toggle-icon {
+    display: flex;
+  }
+
+  .home-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-us__image {
+    display: none;
+  }
+
+  .comment {
+    flex-direction: column-reverse;
+  }
+  .comment-right,
+  .comment-left {
+    flex-basis: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row.align-center {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__title,
+  .about-us__content__title,
+  .services__title,
+  .pricing__title,
+  .blog__title,
+  .comment__title,
+  .contact-us__title {
+    font-size: 3rem;
+  }
+
+  .about-us__content__subtitle,
+  .services__subtitle,
+  .blog__subtitle,
+  .comment__subtitle {
+    font-size: 1.8rem;
+  }
+
+  .home__desc,
+  .about-us__content__desc,
+  .services__desc,
+  .pricing__desc,
+  .blog__desc,
+  .comment__desc,
+  .contact-us__desc {
+    font-size: 1.5rem;
+  }
+
+  .comment__blockquote {
+    font-size: 1.8rem;
+    border-right: 0.4rem solid;
+  }
+
+  .btn-wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+}
+
+@media screen and (max-width: 410px) {
+  .home__title,
+  .about-us__content__title,
+  .services__title,
+  .pricing__title,
+  .blog__title,
+  .comment__title,
+  .contact-us__title {
+    font-size: 2.5rem;
+  }
+
+  .about-us__content__subtitle,
+  .services__subtitle,
+  .blog__subtitle,
+  .comment__subtitle {
+    font-size: 1.6rem;
+  }
+
+  .home__desc,
+  .about-us__content__desc,
+  .services__desc,
+  .pricing__desc,
+  .blog__desc,
+  .comment__desc,
+  .contact-us__desc {
+    font-size: 1.4rem;
+  }
+
+  .comment__blockquote {
+    font-size: 1.7rem;
+    border-right: 0.3rem solid;
+  }
+}
+
+/* @media screen and (max-width: 350px) {
+
+} */
