@@ -106,6 +106,8 @@ body {
   cursor: pointer;
   width: 15rem;
   height: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .menu {
